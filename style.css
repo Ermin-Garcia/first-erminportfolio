@@ -372,7 +372,7 @@
     }
   }  
   @media (max-width: 991px) {
-    .header { 
+    header { 
       padding: 1rem 9%;
     } 
     section {   
