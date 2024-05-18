@@ -396,6 +396,7 @@
       align-items: center; 
       background: rgba(0, 0, 0, .96);
       transition: top 1s ease; 
+      display: none;
     } 
     .navbar #close-icon {
       display: block;
