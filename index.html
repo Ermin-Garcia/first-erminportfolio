@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>porfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--navbar--> 
+  <header>
+    <a href="#home" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>     
+    <nav class="navbar">
+      <i class="fa-solid fa-xmark" id="close-icon"></i>                                 
+      <a href="#home">Home</a>
+      <a href="#about">About</a>             
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>  
+    </nav>   
+  </header> 
+
+  <!--home-->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello there, its</h3>
+      <h1>Ermin Garcia</h1>
+      <h3>I'm Frontend Developer</h3>
+      <p>A passionate front-end developer from<br/> 
+        the philippines and i love creating,<br/>
+        exploring and learn more about my skills <br/>
+        in html, css, javascript and react js. 
+      </p>         
+    </div>
+    <div class="img">
+      <img src='./images/ermin.jpg' alt="error"/>
+    </div>
+  </section>
+
+  <!--about--> 
+  <section class="about" id="about"> 
+    <div class='container'> 
+      <div class='box'>
+        <div class="img">
+          <img src="./images/ermin.jpg" alt="error"/>
+        </div>
+        <div class="about-content">
+          <h2>About me</h2>
+          <h3>Frontend Developer</h3>
+        </div>
+      </div>
+      <div class="info">
+        <div class='box1'>         
+          <h4>Information</h4>
+          <div>
+            <h5>Address:</h5>
+            <ul class="text">
+              <li>
+                Blk 6 Lot 16 Magnolia st. Camella Homes
+                Subd. San Antoio 1 Noveleta Cavite 
+              </li>
+            </ul> 
+          </div>
+          <div>
+            <h5>Cell no:</h5>
+            <ul class="text">
+              <li>09566348119</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Email Address:</h5>
+            <ul class="text">
+              <li>ermingarcia1212@gmail.com</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Birthday:</h5>
+            <ul class="text">
+              <li>December 12, 1974</li>
+            </ul>
+          </div>                                    
+        </div>
+        <div class="box1">
+          <h4>Educational Background</h4>
+          <div> 
+            <h5>College:</h5>
+            <ul class='text'>
+              <li>De La Salle University, Dasmarinas Cavite (Philippines)</li>                            
+            </ul>
+          </div>
+          <div>
+            <h5>Course:</h5>
+            <ul class="text">          
+              <li>Bs Computer Science (Undergraduate)</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="box1">
+          <h4>Work Experience</h4>
+          <div>
+            <ul class='text'>
+              <li>Work as a data encoder during election period.</li>
+            </ul>    
+          </div>
+          <div>
+            <ul class='text'>
+              <li>Establish my own business of Auto Repair Shop for 11 years.</li>
+            </ul>               
+          </div>
+          <div>
+            <ul class='text'>
+              <li>Performed my duties without any complaints as taxi operator for 6 years.</li>
+            </ul>               
+          </div>
+        </div>
+        <div class="box1"> 
+          <h4>Core Skills</h4>
+          <div>  
+            <ul class='text'>
+              <li>Html5</li>
+            </ul>
+          </div>
+          <div>
+            <ul class='text'>
+              <li>Css3</li>
+            </ul>
+          </div>
+          <div> 
+            <ul class='text'>
+              <li>Java script</li>
+            </ul>
+          </div>
+          <div> 
+            <ul class='text'>
+              <li>React js</li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </section>
+
+  <!--portfolio-->
+  <section class="portfolio" id="portfolio">
+    <h2>Project</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box1">
+        <div class="portfolio-layer">
+          <h3>Calculator</h3>
+          <a href="https://ermincode.github.io/calculator-project/" target='blank' class="icon">click</a>
+        </div>
+      </div> 
+      <div class="portfolio-box2"> 
+        <div class="portfolio-layer">
+          <h3>Increment Decrement</h3>
+          <a href="https://ermincode.github.io/increment-decrement/" target='blank' class='icon'>click</a>
+        </div>
+      </div> 
+    </div> 
+  </section>
+
+  <!--contact-->
+  <section class="contact" id="contact">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <h2 class="heading">Contact</h2>
+      <input type="hidden" name="access_key" value="807fb894-a5d6-437f-a95b-f3171f58b7be"/>
+      <div class="input-box">
+        <input type="text" name='full_name' placeholder="Full Name" maxLength={25} required/>
+      </div>
+      <div class="input-box">
+        <input type="email" name='email_address' placeholder="Email Address" maxLength={25} required/>
+      </div>
+      <div class="input-box">
+        <input type="number" name='number' placeholder="Mobile Number" maxLength={25}/>
+      </div>
+        <textarea name="message" id="area" cols="30" rows="8" placeholder="Youre Message"></textarea>
+      <div class="box">
+        <input type="submit" value="Send Message" class="btn"/>
+      </div>
+    </form> 
+    <div class="media">
+      <a href="https://www.facebook.com/ermin.garcia.1212" target='blank'> 
+        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+      </a>
+      <a href="https://github.com/ermincode" target='blank'>
+        <i class="fa-brands fa-square-github fa-2xl"></i>
+      </a>
+      <p class='no'>Tel no. 09566348119</p>
+    </div>             
+  </section>  
+
+  <!--footer-->  
+  <footer class="footer">
+    <div class="footer-text">
+      <p>CopyRight &copy; 2024 by Ermin All Rights Reserved. </p>
+    </div>
+    <div class="footer-icon">
+      <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer> 
+  
+  <script src="https://kit.fontawesome.com/dfe9838021.js" crossorigin="anonymous"></script>  
+  <script src="index.js"></script>
+</body>
+</html>
