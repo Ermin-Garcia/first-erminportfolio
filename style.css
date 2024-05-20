@@ -307,11 +307,18 @@
     gap: 2rem; 
     margin-bottom: -12.5rem;
   }
-  .media i { 
+  .media a { 
     color: #fd5d00;  
     transition: .5s ease;
+    box-shadow: 0 0 .5rem #000000;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
   }
-  .media i:hover {
+  .media a:hover {
     color: #00ffff;
     transform: scale(1.5);
   }  
